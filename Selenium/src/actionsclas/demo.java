@@ -26,9 +26,9 @@ public class demo {
 		  driver.findElement(By.id("dateOfBirthInput")).click();
 		  
 		  driver.findElement(By.xpath("//input[@id='subjectsInput']")).sendKeys("abc");
-		 //;Thread.sleep(2000);
+		 Thread.sleep(2000);
 		
-		 // driver.findElement(By.xpath("//label[text()='Music']")).click();
+		 //comment driver.findElement(By.xpath("//label[text()='Music']")).click();
 		  driver.findElement(By.id("currentAddress")).sendKeys("korea");
 	}
 
